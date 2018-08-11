@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ReinforcedBlocks",
+  "name": "Reinforced Blocks MOD",
+  "description": "耐爆ブロック追加",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/maa123/ReinforcedBlocks",
+  "updateUrl": "",
+  "authorList": ["maa123"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
