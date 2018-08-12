@@ -32,14 +32,13 @@ jobs:
           - v1-dependencies-
 
       - run: chmod +x ./gradlew
+      # run tests!
+      - run: ./gradlew build
+      - run: ls -lh
       - save_cache:
           paths:
             - ~/.gradle
           key: v1-dependencies-{{ checksum "build.gradle" }}
-        
-      # run tests!
-      - run: ./gradlew build
-      - run: ls -lh
       - store_artifacts:
           path: build/libs
       - store_test_results:
