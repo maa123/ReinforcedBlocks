@@ -52,6 +52,20 @@ public class ReinforcedBlocks {
 		'I',Items.iron_ingot,
 		'O', Blocks.obsidian,
 		'S', Blocks.glowstone);
+		GameRegistry.addRecipe(new ItemStack(blockEStone, 3),
+		"OIO",
+		"SSS",
+		"OIO",
+		'I',Items.iron_ingot,
+		'O', Blocks.obsidian,
+		'S', Blocks.stone);
+		GameRegistry.addRecipe(new ItemStack(blockEGlass, 3),
+		"OIO",
+		"GGG",
+		"OIO",
+		'I',Items.iron_ingot,
+		'O', Blocks.obsidian,
+		'G', Blocks.glass);
 	}
 
 }
