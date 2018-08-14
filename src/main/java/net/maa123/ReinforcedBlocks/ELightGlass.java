@@ -8,19 +8,19 @@ import net.minecraft.world.IBlockAccess;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class EGlass extends Block {
+public class ELightGlass extends Block {
 	protected int Rcolor = 13421772;
 
-	public EGlass() {
+	public ELightGlass() {
 		super(Material.glass);
-		setBlockName("blockEGlass");
+		setBlockName("blockELightGlass");
 		setBlockTextureName("glass");
 		setCreativeTab(CreativeTabs.tabBlock);
-		setHardness(5.0F);
+		setHardness(7.0F);
 		setHarvestLevel("pickaxe", 1);
 		setResistance(Float.POSITIVE_INFINITY);
 		setStepSound(Block.soundTypeStone);
-		setLightLevel(0.0F);
+		setLightLevel(1.0F);
 		setLightOpacity(0);
 	}
 

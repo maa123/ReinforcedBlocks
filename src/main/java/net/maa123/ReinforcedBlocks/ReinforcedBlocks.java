@@ -3,6 +3,7 @@ package net.maa123.ReinforcedBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -24,7 +25,11 @@ public class ReinforcedBlocks {
 
 	public static Block blockELightGlass;
 
+	public static Block blockEButton;
+
 	public static Block blockEShield;
+
+	public static Item itemEDoor;
 
 	@EventHandler
 	public void perInit(FMLPreInitializationEvent event) {
@@ -34,12 +39,24 @@ public class ReinforcedBlocks {
 		blockEGlass = new EGlass();
 
 		blockEStone = new EStone();
+		
+		blockEDoor = new EDoor();
+
+		blockELightGlass = new ELightGlass();
+
+		itemEDoor = new EDoorItem();
 
 		GameRegistry.registerBlock(blockEGlowstone, "blockEGlowstone");
 
 		GameRegistry.registerBlock(blockEGlass, "blockEGlass");
 
 		GameRegistry.registerBlock(blockEStone, "blockEStone");
+
+		GameRegistry.registerBlock(blockELightGlass, "blockELightGlass");
+
+		GameRegistry.registerBlock(blockEDoor, "blockEDoor");//アイテムとしての登録も必要
+
+		GameRegistry.registerItem(itemEDoor, "EDoorItem");
 	}
 
 	@EventHandler
@@ -66,6 +83,14 @@ public class ReinforcedBlocks {
 		'I',Items.iron_ingot,
 		'O', Blocks.obsidian,
 		'G', Blocks.glass);
+		GameRegistry.addRecipe(new ItemStack(blockELightGlass, 2),
+		"OIO",
+		"GSG",
+		"OIO",
+		'I',Items.iron_ingot,
+		'O', Blocks.obsidian,
+		'G', Blocks.glass,
+		'S', Blocks.glowstone);
 	}
 
 }
