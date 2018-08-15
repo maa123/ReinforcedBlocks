@@ -91,6 +91,12 @@ public class ReinforcedBlocks {
 		'O', Blocks.obsidian,
 		'G', Blocks.glass,
 		'S', Blocks.glowstone);
+		GameRegistry.addRecipe(new ItemStack(itemEDoor,2),
+		"OOO",
+		"DDD",
+		"OOO",
+		'O',Blocks.obsidian,
+		'D',Items.iron_door);
 	}
 
 }
