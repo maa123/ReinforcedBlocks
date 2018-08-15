@@ -12,7 +12,7 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "ReinforcedBlocks", name = "ReinforcedBlocks MOD", version = "1.0.0")
+@Mod(modid = "ReinforcedBlocks", name = "ReinforcedBlocks MOD", version = "1.1.0")
 public class ReinforcedBlocks {
 
 	public static Block blockEGlowstone;

@@ -1,3 +1,6 @@
 tile.blockEGlowstone.name=Reinforced Glowstone
 tile.blockEGlass.name=Reinforced Glass
 tile.blockEStone.name=Reinforced Stone
+tile.blockELightGlass.name=Reinforced Light Glass
+tile.blockEDoor.name=Reinforced Door Block
+item.EDoorItem.name=Reinforced Door
