@@ -101,6 +101,12 @@ public class ReinforcedBlocks {
 		"OOO",
 		'O',Blocks.obsidian,
 		'D',Items.iron_door);
+		GameRegistry.addRecipe(new ItemStack(blockEButton),
+		" O ",
+		" B ",
+		" O ",
+		'O',Blocks.obsidian,
+		'B',Blocks.stone_button);
 	}
 
 }
