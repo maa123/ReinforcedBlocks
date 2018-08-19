@@ -44,6 +44,8 @@ public class ReinforcedBlocks {
 
 		blockELightGlass = new ELightGlass();
 
+		blockEButton = new EButton();
+
 		itemEDoor = new EDoorItem();
 
 		GameRegistry.registerBlock(blockEGlowstone, "blockEGlowstone");
@@ -54,7 +56,9 @@ public class ReinforcedBlocks {
 
 		GameRegistry.registerBlock(blockELightGlass, "blockELightGlass");
 
-		GameRegistry.registerBlock(blockEDoor, "blockEDoor");//アイテムとしての登録も必要
+		GameRegistry.registerBlock(blockEDoor, "blockEDoor");
+
+		GameRegistry.registerBlock(blockEButton, "blockEButton");
 
 		GameRegistry.registerItem(itemEDoor, "EDoorItem");
 	}

@@ -3,4 +3,5 @@ tile.blockEGlass.name=耐爆ガラス
 tile.blockEStone.name=耐爆焼石
 tile.blockELightGlass.name=明るい耐爆ガラス
 tile.blockEDoor.name=耐爆ドアブロック
+tile.blockEButton.name=耐爆ボタン
 item.EDoorItem.name=耐爆ドア
