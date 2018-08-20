@@ -18,7 +18,7 @@ public class EButton extends BlockButton {
         super(false);
         setBlockName("blockEButton");
         setBlockTextureName("stone");
-        setCreativeTab(CreativeTabs.tabBlock);
+        setCreativeTab(CreativeTabs.tabRedstone);
         setHardness(5.0F);
         setResistance(Float.POSITIVE_INFINITY);
     }
