@@ -32,7 +32,7 @@ public class EDoorItem extends ItemDoor {
             if (!ReinforcedBlocks.blockEDoor.canPlaceBlockAt(worldln, x, y, z)) {
                 return false;
             }
-            placeDoorBlock(worldln, x, y, z, (int) (((ePlayer.rotationYaw + 180) / 90) - 0.5) % 4, ReinforcedBlocks.blockEDoor);// 何故かこうすると動く
+            placeDoorBlock(worldln, x, y, z, (int) (((ePlayer.rotationYaw + 180) / 90) - 0.5) & 3, ReinforcedBlocks.blockEDoor);// 何故かこうすると動く
             itemst.stackSize = itemst.stackSize - 1;
             return true;
         }
