@@ -3,6 +3,8 @@ For Minecraft 1.7.10 Forge 10.13.4.1614
 
 [![CircleCI](https://circleci.com/gh/maa123/ReinforcedBlocks.svg?style=svg)](https://circleci.com/gh/maa123/ReinforcedBlocks)
 
+[![Actions Status](https://github.com/maa123/ReinforcedBlocks/workflows/Build/badge.svg)](https://github.com/maa123/ReinforcedBlocks/actions)
+
 
 耐爆ブロックを主に追加
 
